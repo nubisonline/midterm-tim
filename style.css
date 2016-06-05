@@ -1,0 +1,11 @@
+p.title {
+	font-size: 130%;
+}
+
+.author {
+    float: right;
+}
+
+.author img {
+	vertical-align: middle;
+}

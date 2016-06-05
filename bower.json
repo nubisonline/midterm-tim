@@ -1,0 +1,22 @@
+{
+  "name": "midterm",
+  "authors": [
+    "Tim van Dalen <Tim@timvdalen.nl>"
+  ],
+  "description": "Midterm presentation",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "UNLICENSED",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reveal.js": "~3.3.0"
+  }
+}
