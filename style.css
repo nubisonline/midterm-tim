@@ -1,11 +1,77 @@
-p.title {
-	font-size: 130%;
+body {
+    background-color: #6499B3;
 }
 
-.author {
+.reveal .progress span {
+    background: #a3f2ff;
+}
+
+.reveal h1  { 
+    font-family: 'Lato', sans-serif;
+    font-weight: 100; 
+}
+
+.reveal h2  { 
+    font-family: 'Lato', sans-serif;
+    font-weight: 100; 
+}
+
+.reveal p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100; 
+}
+
+.reveal p.title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;  
+    font-size: 1.1em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    margin-top: 1.5em;
+    width: 100%;
+}
+
+.slides {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100; 
+}
+
+.reveal .author {
     float: right;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100; 
+    font-size: 0.75em;
 }
 
-.author img {
+.reveal .author img {
 	vertical-align: middle;
 }
+
+.reveal section img {
+    border: 0px solid #000;
+    box-shadow: 0 0 0 rgba(0,0,0,0);
+    border-radius: 50%;
+}
+
+.reveal ul li {
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;  
+    font-size: 1.1em;
+    padding: 10px 0;
+    list-style-type: circle;
+}
+
+.reveal p small {
+    line-height: 1.7em;
+    width: 800px;
+}
+
+.reveal .giveme {
+    color: #1c2148;
+    text-shadow:    0 0 10px #ffffff,
+        0 0 10px #ffffff,
+        0 0 20px #ffffff,
+        0 0 30px #ffffff,
+        0 0 2px #ffffff;
+}
+
