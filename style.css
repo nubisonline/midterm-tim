@@ -2,6 +2,10 @@ body {
     background-color: #6499B3;
 }
 
+.reveal .progress {
+    height: 10px;
+}
+
 .reveal .progress span {
     background: #a3f2ff;
 }
@@ -73,5 +77,17 @@ body {
         0 0 20px #ffffff,
         0 0 30px #ffffff,
         0 0 2px #ffffff;
+}
+
+.reveal .participate {
+    overflow: visible;
+    width: 1250px;
+    transform: translateX(-145px);
+}
+
+.reveal .participatep small {
+    overflow: visible;
+    width: 1250px;
+    transform: translateX(-145px);
 }
 
